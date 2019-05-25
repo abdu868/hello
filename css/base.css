@@ -1,0 +1,22 @@
+.container {
+  width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container h1 {
+  position: absolute;
+  left: 411px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.container h1:hover {
+  transition: 250ms all;
+  color: white;
+}
+.container img {
+  width: 1000px;
+  height: 600px;
+}
